@@ -41,7 +41,10 @@ class _MoviesOverviewPageState extends State<MoviesOverviewPage> {
             mainAxisExtent: 250,
           ),
           itemCount: loadMovie.length,
-          itemBuilder: (context, index) => MovieItem(loadMovie[index]),
+          itemBuilder: (context, index) => ChangeNotifierProvider.value(
+            value: loadMovie[index],
+            child: MovieItem(loadMovie[index]),
+          ),
         ),
       ),
     );

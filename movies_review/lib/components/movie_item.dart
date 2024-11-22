@@ -9,6 +9,7 @@ class MovieItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const baseUrlImage = 'https://image.tmdb.org/t/p/w220_and_h330_face';
+
     return ClipRRect(
       borderRadius: BorderRadius.circular(8),
       child: GridTile(

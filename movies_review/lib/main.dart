@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies_review/core/models/movie/service/movie/movie_list.dart';
+import 'package:movies_review/pages/auth_page.dart';
 import 'package:movies_review/pages/movie_detail_page.dart';
 import 'package:movies_review/pages/movies_overview_page.dart';
 import 'package:movies_review/utils/app_routes.dart';
