@@ -13,10 +13,13 @@ class MovieItem extends StatelessWidget {
       borderRadius: BorderRadius.circular(8),
       child: GridTile(
         footer: GridTileBar(
-          backgroundColor: Colors.black54,
+          backgroundColor: Colors.black87,
           title: Text(
             movie.title,
-            style: TextStyle(fontWeight: FontWeight.w600, fontSize: 16),
+            style: const TextStyle(
+              fontWeight: FontWeight.w600,
+              fontSize: 16,
+            ),
           ),
         ),
         child: GestureDetector(
